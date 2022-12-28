@@ -1,6 +1,6 @@
 <p align="center">
   </a>
-    <img src="twitter-banner.png" />
+    <img src="twitter-banner .png" />
   </a>
 </p>
 
