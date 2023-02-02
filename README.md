@@ -10,6 +10,8 @@
 <p align="center">
   <a href="#team-members">Team Members</a> •
   <a href="#product">Product</a> •
+  <a href="#contact">Contact</a> •
+  <a href="#features">Feature</a> •
   <a href="#contact">Contact</a> 
 </p>
 
@@ -47,7 +49,20 @@
 - **Bảo mật:** GitHub cung cấp một môi trường an toàn và bảo mật cho mã nguồn của bạn.
 - **Tích hợp với các công cụ phát triển phần mềm:** GitHub có thể tích hợp với các công cụ phát triển phần mềm khác, giúp cho quá trình phát triển trở nên dễ dàng hơn.
 
-  
+## Architecture
+
+```mermaid
+graph TD; 
+A(((Github))) --> B[Frontend];
+A --> C[Backend]; 
+A --> D[Database];
+A --> E[Storage system];
+A --> F[Deployment environment]; 
+A --> G[API Integration];
+```
+
+
+ 
 ## Contact
 
 - ### Find us on [facebook](https://www.facebook.com/heu1704)
