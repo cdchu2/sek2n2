@@ -11,7 +11,7 @@ import httpx
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key="secret")
 
-app.mount("/test_web1/static", StaticFiles(directory="static"), name="static")
+app.mount("/sek2n2/static", StaticFiles(directory="static"), name="static")
 
 
 config = Config('.env')
